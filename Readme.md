@@ -10,5 +10,9 @@ Crie um função que coloque dentro da div as mensagens dentro de uma lista usan
 Atrasvez do DOM selecione o formulario e o adicione um evento submit.É necessario evitar o curso do evento pq ele irá enviar a mensagem pelo protocolo http, evite isso com "preventDefault()".Feito isso podemos criar uma constante para receber as mensagens que vamos pegar com o "document.forms" e passe em seguida os nomes dentro do index. atribua uma string vazia a esse mesmo elemento que foi selecionado com o "document" e o envie para o back-end 
 
 
+<br>
+2.0 - Criamos mais um formulario para receber o nome de um usuario e definimos que você precisa de um usuario para porder mandar mensagens. e sempre que uma mensgaem for enviada virá identificada com o nome do "usuario logado".
+<br>
 
-2.0 - 
+
+3.0 - Criamos duas salas 
