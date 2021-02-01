@@ -16,9 +16,8 @@ const io = socketIO(server)
 io.on('connection',(socket)=>{
 
     socket.on('new_message', (data)=>{
-        messages.push(data.msg)
+        messages.push(data)
 
         io.emit('update_message', messages)
-
     })
 })
